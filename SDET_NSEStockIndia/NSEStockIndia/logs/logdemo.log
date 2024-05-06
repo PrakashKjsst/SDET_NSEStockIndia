@@ -1,0 +1,17 @@
+11:28:30.644 [TestNG-tests-1] INFO  Utilities.Log - Setting up Browser 
+11:28:30.702 [TestNG-tests-3] INFO  Utilities.Log - Setting up Browser 
+11:28:30.702 [TestNG-tests-2] INFO  Utilities.Log - Setting up Browser 
+11:28:46.667 [TestNG-tests-3] INFO  Utilities.Log - Starting Test named selectAnyStockNIFTY50
+11:28:47.711 [TestNG-tests-1] INFO  Utilities.Log - Starting Test named selectAnyStockNIFTY50
+11:28:48.873 [TestNG-tests-3] INFO  Utilities.Log - Screenshot captured
+11:28:48.890 [TestNG-tests-3] INFO  Utilities.Log - Browser session closed
+11:28:49.640 [TestNG-tests-1] INFO  Utilities.Log - Screenshot captured
+11:28:49.660 [TestNG-tests-1] INFO  Utilities.Log - Browser session closed
+11:28:50.399 [TestNG-tests-3] INFO  Utilities.Log - Setting up Browser 
+11:28:50.622 [TestNG-tests-1] INFO  Utilities.Log - Setting up Browser 
+11:29:01.769 [TestNG-tests-3] INFO  Utilities.Log - stockInformationVerifyRCOM started 
+11:29:04.000 [TestNG-tests-1] INFO  Utilities.Log - stockInformationVerifyRCOM started 
+11:29:12.154 [TestNG-tests-3] INFO  Utilities.Log - Screenshot captured
+11:29:12.170 [TestNG-tests-3] INFO  Utilities.Log - Browser session closed
+11:29:13.937 [TestNG-tests-1] INFO  Utilities.Log - Screenshot captured
+11:29:13.949 [TestNG-tests-1] INFO  Utilities.Log - Browser session closed

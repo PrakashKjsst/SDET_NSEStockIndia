@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<!-- Which creates folder -->
+	<Properties>
+		<Property name="filename">./logs</Property>
+	</Properties>
+	<Appenders>
+		<RollingFile name="file" fileName="${filename}/logdemo.log" filePattern="${filename}/logdemo-%d{HH-mm-ss-SSS}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="10 KB" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- Using Logger we can create customized logger to the specific package -->
+
+		<!-- <Logger name="com.lambda.testcases" level="info" additivity="false">
+			<AppenderRef ref="Console" />
+		</Logger> -->
+
+		<Root level="info">
+			<AppenderRef ref="Console"/>
+			<AppenderRef ref="file"/>
+		</Root>
+	</Loggers>
+</Configuration>

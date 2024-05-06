@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests" thread-count="5">
+<listeners>
+<listener class-name="Utilities.Reporting"></listener>
+</listeners>
+  <test name="ChromeTest">
+    <parameter name="Browser" value="chrome" />
+    <parameter name="URL" value="https://www.nseindia.com/"></parameter>
+    <classes>
+      <class name="com.nifty50.testscases.NSEIndiaStock" />
+    </classes>
+  </test>
+ 
+  <test name="FirefoxTest">
+    <parameter name="Browser" value="firefox" />
+    <parameter name="URL" value="https://www.nseindia.com/"></parameter>
+    <classes>
+      <class name="com.nifty50.testscases.NSEIndiaStock" />
+    </classes>
+  </test>
+  <test name="EdgeTest">
+    <parameter name="Browser" value="edge" />
+    <parameter name="URL" value="https://www.nseindia.com/"></parameter>
+    <classes>
+      <class name="com.nifty50.testscases.NSEIndiaStock" />
+    </classes>
+  </test> <!-- Test --> 
+ 
+
+
+</suite> <!-- Suite -->
